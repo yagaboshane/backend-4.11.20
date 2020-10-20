@@ -1,0 +1,20 @@
+#homeDisplay{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem 0 5rem;
+}
+
+#adminHeader{
+    justify-content: center;
+    
+}
+
+#quickLinks{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* wrapper :focus-within{
+
+} */

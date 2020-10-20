@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            body{
+                padding: 0 50px 0 50px;
+                font-family: cursive;
+            }
+
+            #logo{
+                color: rgb(235, 196, 91);
+            }
+
+            #seperator{
+                border-color: black;
+            }
+
+            #createTask{
+                display: flex;
+                flex-direction: column;
+                border: 0 auto;   
+            }
+
+            #wrapper{
+                display: flex;
+                justify-content: space-evenly;    
+            }
+
+            button{
+                width: 3em;
+            }
+
+                    
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1 id="logo">FiltR.</h1>
+        </header>
+        <br id="seperator">
+        <div id="wrapper">
+            <div >
+                <h4>Add a new Task</h4>
+                <form action="" id="createTask">
+                    <label for="" >Task title</label> 
+                    <input type="text" id="formTitle"> <br>
+                    <label for="" >Task description</label>
+                    <textarea name="" id="formDescript" cols="30" rows="10"></textarea>
+                    <label for="" >Date</label>
+                    <input type="date" name="" id="formDate">
+                    <label for="">Time</label>
+                    <input type="time" name="" id="formTime"> <br>
+                    <button id="addTask">Add</button>
+                </form>
+            </div>
+
+            <div id="inner">                
+                    <h4>These are your Tasks:</h4>
+                    <div id="taskCapture"></div>    
+            </div>
+        </div>
+
+        <h4 id="dailyQuote"></h4>
+        
+
+    <!-- <script src="toDoFront.js"></script> -->
+    </body>
+</html>
